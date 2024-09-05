@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/atalshrivastava/IdeaProjects/Maven_TestNg/src/test/java/MavenProject">
+        <classes>
+            <class name="MavenProject.AlwaysRunTestcase"> </class>
+            <class name="MavenProject.BeforeClassAndAfterClass"> </class>
+            <class name="MavenProject.ExampleTest"> </class>
+            <class name="MavenProject.ExampleTestNg"> </class>
+            <class name="MavenProject.InvocationCountMethod"> </class>
+            <class name="MavenProject.MethodBeforeAndAfter"> </class>
+            <class name="MavenProject.MethodDemo"> </class>
+            <class name="MavenProject.PriorityCharacterAsciIvalue"> </class>
+            <class name="MavenProject.PriorityDefault"> </class>
+            <class name="MavenProject.PriorityDefineDuplicate"> </class>
+            <class name="MavenProject.PriorityDemo"> </class>
+            <class name="MavenProject.PriorityExample"> </class>
+            <class name="MavenProject.PriorityIsNegative"> </class>
+        </classes>
+    </test>
+</suite>

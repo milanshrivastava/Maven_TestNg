@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/atalshrivastava/IdeaProjects/Maven_TestNg">
+        <classes>
+            <class name="MavenProject.AlwaysRunTestcase">
+            <methods>
+                <include name="VerifyLoginPage"/>
+                <include name="VerifyLogoutPage"/>
+            </methods>
+        </class>
+            <class name="MavenProject.BeforeClassAndAfterClass">
+            <methods>
+                <include name="verifyMethod1"/>
+                <include name="verifyMethod2"/>
+                <include name="verifyMethod3"/>
+            </methods>
+            </class>
+            <class name="MavenProject.DepandsOfMethod">
+                <methods>
+                    <include name="VerifyLoginPage"/>
+                    <include name="VerifyLogoutPage"/>
+                </methods>
+            </class>
+            <class name="MavenProject.DependsGroupOfMethod">
+                <methods>
+                    <include name="VerifyLogoutPage"/>
+                </methods>
+            </class>
+            <class name="MavenProject.DisableTestcase">
+                <methods>
+                    <include name="TestCaseZ"/>
+                    <include name="TestCaseM"/>
+                    <include name="TestCaseH"/>
+                </methods>
+            </class>
+            <class name="MavenProject.ExampleTest"><methods>
+                <include name="SeleniumWebsite"/>
+            </methods>
+            </class>
+            <class name="MavenProject.ExampleTestNg">
+                <methods><include name="OpenSelenium"/>
+                    <include name="OpenFlipkart"/>
+                    <include name="OpenAmazon"/>
+                    <include name="OpenBrowserPractice"/>
+                </methods></class>
+            <class name="MavenProject.InvocationCountMethod">
+                <methods>
+                    <include name="VerifyInvocationCountMethod"/>
+                    <include name="VerifyInvocationCountMethod1"/>
+                </methods>
+            </class>
+            <class name="MavenProject.MethodBeforeAndAfter">
+                <methods>
+                    <include name="verifyMethod1"/>
+                    <include name="verifyMethod2"/>
+                    <include name="verifyMethod3"/>
+                </methods>
+            </class>
+            <class name="MavenProject.MethodDemo">
+                <methods>
+                    <include name="VerifyOpenFlipkart"/>
+                    <include name="VerifyOpenAmazon"/>
+                </methods>
+            </class>
+            <class name="MavenProject.PriorityCharacterAsciIvalue">
+                <methods>
+                    <include name="TestCaseZ"/>
+                    <include name="TestCaseM"/>
+                    <include name="TestCaseH"/>
+                    <include name="TestCaseY"/>
+                    <include name="TestCaseF"/>
+                </methods>
+            </class>
+            <class name="MavenProject.PriorityDefault">
+                <methods>
+                    <include name="TestCaseZ"/>
+                    <include name="TestCaseM"/>
+                    <include name="TestCaseH"/>
+                    <include name="TestCaseY"/>
+                    <include name="TestCaseF"/>
+                </methods>
+            </class>
+            <class name="MavenProject.PriorityDefineDuplicate">
+                <methods>
+                    <include name="TestCaseZ"/>
+                    <include name="TestCaseM"/>
+                    <include name="TestCaseH"/>
+                    <include name="TestCaseY"/>
+                    <include name="TestCaseF"/>
+                </methods>
+            </class>
+            <class name="MavenProject.PriorityDemo">
+                <methods>
+                    <include name="TestCaseZ"/>
+                    <include name="TestCaseM"/>
+                    <include name="TestCaseH"/>
+                    <include name="TestCaseY"/>
+                    <include name="TestCaseF"/>
+                    <include name="TestCaseC"/>
+                </methods>
+            </class>
+            <class name="MavenProject.PriorityExample">
+                <methods>
+                    <include name="TestCaseZ"/>
+                    <include name="TestCaseM"/>
+                    <include name="TestCaseH"/>
+                    <include name="TestCaseY"/>
+                    <include name="TestCaseF"/>
+                    <include name="TestCaseC"/>
+                </methods>
+            </class>
+            <class name="MavenProject.PriorityIsNegative">
+                <methods>
+                    <include name="TestCaseZ"/>
+                    <include name="TestCaseM"/>
+                    <include name="TestCaseH"/>
+                    <include name="TestCaseY"/>
+                    <include name="TestCaseF"/>
+                </methods></class>
+        </classes></test></suite>
