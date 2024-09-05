@@ -9,7 +9,9 @@ public class PriorityDemo {
     @Test
     public void TestCaseZ()
     {
-        System.out.println("testcase z");
+        System.out.println("testcase z
+        ");
+       
     }
     @Test
     public void TestCaseM()

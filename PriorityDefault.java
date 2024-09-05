@@ -7,7 +7,7 @@ public class PriorityDefault {
      * priority is default  agar kuch denine nhi kiya hai
      * alphabetical mai print hoga then priority wise
      */
-    @Test(priority = 1)
+    @Test
     public void TestCaseZ()
     {
         System.out.println("testcase z");
